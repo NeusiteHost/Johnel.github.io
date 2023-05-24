@@ -1,0 +1,98 @@
+.chart{
+    -webkit-animation: mover 1.5s infinite  alternate;
+    animation: mover 1.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+
+body{margin:0PX;}
+
+/* Styling headers*/
+.header{background:#CE0000;width:100%;height:60px}
+.logo{height:80px;margin-top:-20px;margin-left:2px}
+.logo2{height:60px;margin-top:0px;margin-left:-30px;display:none}
+.logoback{height:60px;width:69px;background:#002368;}
+.menubar{height:30px;}
+.menubarDiv{float:right;margin-top:15px;margin-right:10px}
+
+
+/*sections*/
+.section1{height:60px;background: #E6E6E6;}
+.section2{height:30px;background: white;}
+.section2 p{margin-left:10px;margin-top:20px;font-size:20px}
+.section3{height:50px;background:#020245;color:white}
+.section3 h5{padding-top:15px;margin-left:10px}
+.section3 h6{margin-top:-40px;margin-right:10px;text-align: right;color:white}
+.section4{height:50px;background:#020245;color:white}
+.section4 p{font-weight: 300;padding-top: 10px;margin-left: 10px;}
+.section4 h4{text-align: right;margin-top:-35px;margin-right: 10px;}
+
+
+/*styling the latest section*/
+.latest img{width:100px;height:60px;margin:20px 10px}
+.latest p{font-weight: 300;color:#002C83;font-size:14px}
+.latest h3{font-weight: 500;margin-top: -10px;width:230px;font-size:14px;}
+
+#latestpart{display: flex;}
+
+/*Quick question sections*/
+.quick{height:35px;background:#020245;color:white;}
+.quick img{width:100px;height:60px;margin:20px 10px}
+.quick p{font-weight: 350;color:white;font-size:16px;padding-top:7px}
+
+.section5{margin:10px 10px}
+.section5 #header{max-width:400px;height:25px;background:#E6E6E6;font-weight: 300;font-size:15px;padding-left:5px;padding-top:5px}
+.block{background:red;width:50px;height:25px;margin-top:10px}
+
+.section5 h3{font-weight: 500;margin-top: 13px;width:280px;font-size:14px;margin-left: 5px;text-align: left;}
+
+.section5 h3 #more{color:green;font-weight:300;margin-left:5px}
+
+/*styling footer*/
+.footer{background:#E6E6E6;height:100px}
+
+#social{height:40px;margin:20px;}
+
+.footerinfo{color:#494949;font-size:13px;margin-left: 20px;}
+
+
+/*styling the advert popup*/
+.advert{z-index: 1;position:fixed;top:0px;width:100%;background:rgba(10,10,10,0.4);height:100%;display:none;}
+.advert div{background:red;height:400px;width:300px;border-radius:20px;box-shadow: 5px 10px 10px rgba(10,10,10,0.5);margin-top:20%;}
+.advert img{height:400px;width:300px;border-radius:0px}
+
+.advert #cancel{height:50px;width:50px;border-radius:50%;display:none;background: white;}
+#cancel img{height:30px;width:30px;padding-top:10px}
+
+
+/*styling scrowbar*/
+.sidescrowback{height:150px;width:100%;overflow: auto;white-space: nowrap;}
+
+.sidescrow{display:inline-flex;}
+
+#sideseeds{background: #E6E6E6;height: 100px;width:170px;margin:10px 2px;}
+#sideseeds img{height: 100px;width:170px;}
+#sideseedmain p{width:10px;color:black;font-size:12px}
+
+.sidebar{background:#020245;width:300px;height:2000px;position:fixed;z-index:1;top:0;right:-500px;transition: 0.5s;}
+.cancel{height: 30px;margin:20px}
+
+.sidebar h5{color:white;margin-left:10px}
+
+#Godown{margin-top: 120px;}
+.sidebar p{margin-top:-20px;font-size:12px;margin-left: 10px;color:#CFCFCF;margin-buttom:20px}
+.sidebarimg{background: url(./icons/background.jpg);background-size:cover;height:160px;}
+
+#Godown div{background:#002368;border-radius: 5px;}
+/*styling chart*/
+
+.chart{background:white;height:60px;width:60px;border-radius:10px;box-shadow:0px 5px 10px rgba(10,10,10,0.5);z-index:1;position:fixed;top:90%;right:20px}
+.chartimg{height:45px;padding:5px;}
